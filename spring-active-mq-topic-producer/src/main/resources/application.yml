@@ -1,0 +1,14 @@
+jsa:
+  activemq:
+    broker:
+      password: admin
+      url: tcp://localhost:61616
+      username: admin
+    topic: Demo-PubSup-Event-Topic
+server:
+  port: 8085
+  servlet:
+    context-path: /company-api
+spring:
+  jms:
+    pub-sub-domain: true
